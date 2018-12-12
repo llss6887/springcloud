@@ -7,14 +7,18 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="eureka-consumer" />
+        <module name="eureka-hystrix" />
         <module name="eureka-producer" />
         <module name="eureka-server" />
+        <module name="eureka-turbine" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="eureka-consumer" target="1.8" />
+      <module name="eureka-hystrix" target="1.8" />
       <module name="eureka-producer" target="1.8" />
       <module name="eureka-server" target="1.8" />
+      <module name="eureka-turbine" target="1.8" />
       <module name="eurekacloud" target="1.8" />
     </bytecodeTargetLevel>
   </component>

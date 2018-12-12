@@ -3,8 +3,10 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/eureka-consumer/eureka-consumer.iml" filepath="$PROJECT_DIR$/eureka-consumer/eureka-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-hystrix/eureka-hystrix.iml" filepath="$PROJECT_DIR$/eureka-hystrix/eureka-hystrix.iml" />
       <module fileurl="file://$PROJECT_DIR$/eureka-producer/eureka-producer.iml" filepath="$PROJECT_DIR$/eureka-producer/eureka-producer.iml" />
       <module fileurl="file://$PROJECT_DIR$/eureka-server/eureka-server.iml" filepath="$PROJECT_DIR$/eureka-server/eureka-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-turbine/eureka-turbine.iml" filepath="$PROJECT_DIR$/eureka-turbine/eureka-turbine.iml" />
       <module fileurl="file://$PROJECT_DIR$/eurekacloud.iml" filepath="$PROJECT_DIR$/eurekacloud.iml" />
     </modules>
   </component>
