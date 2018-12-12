@@ -1,0 +1,16 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: springcloud-config-server
+  cloud:
+    config:
+      enabled: true
+      server:
+        git:
+          uri: https://github.com/llss6887/springcloud-config
+          search-paths: config-repo
+          username: username
+          password: password
+
+

@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: spring-cloud-client
+  cloud:
+    config:
+      name: repo-config
+      uri: http://localhost:8080/
+      label: master
+      profile: dev
+

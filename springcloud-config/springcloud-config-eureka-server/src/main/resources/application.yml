@@ -1,0 +1,19 @@
+server:
+  port: 8081
+spring:
+  application:
+    name: springcloud-config-server
+  cloud:
+    config:
+      enabled: true
+      server:
+        git:
+          uri: https://github.com/llss6887/springcloud-config
+          search-paths: config-repo
+          username:
+          password:
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8001/eureka/
+

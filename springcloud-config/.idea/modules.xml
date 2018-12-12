@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/springcloud-config.iml" filepath="$PROJECT_DIR$/springcloud-config.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud-config-client/springcloud-config-client.iml" filepath="$PROJECT_DIR$/springcloud-config-client/springcloud-config-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud-config-eureka-client/springcloud-config-eureka-client.iml" filepath="$PROJECT_DIR$/springcloud-config-eureka-client/springcloud-config-eureka-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud-config-eureka-server/springcloud-config-eureka-server.iml" filepath="$PROJECT_DIR$/springcloud-config-eureka-server/springcloud-config-eureka-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud-config-server/springcloud-config-server.iml" filepath="$PROJECT_DIR$/springcloud-config-server/springcloud-config-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud-config-svn/springcloud-config-svn.iml" filepath="$PROJECT_DIR$/springcloud-config-svn/springcloud-config-svn.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud-eureka/springcloud-eureka.iml" filepath="$PROJECT_DIR$/springcloud-eureka/springcloud-eureka.iml" />
+    </modules>
+  </component>
+</project>
