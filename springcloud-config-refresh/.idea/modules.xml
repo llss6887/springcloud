@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/springcloud-config-refresh.iml" filepath="$PROJECT_DIR$/springcloud-config-refresh.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud-config-refresh-client/springcloud-config-refresh-client.iml" filepath="$PROJECT_DIR$/springcloud-config-refresh-client/springcloud-config-refresh-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud-config-refresh-eureka/springcloud-config-refresh-eureka.iml" filepath="$PROJECT_DIR$/springcloud-config-refresh-eureka/springcloud-config-refresh-eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud-config-refresh-server/springcloud-config-refresh-server.iml" filepath="$PROJECT_DIR$/springcloud-config-refresh-server/springcloud-config-refresh-server.iml" />
+    </modules>
+  </component>
+</project>

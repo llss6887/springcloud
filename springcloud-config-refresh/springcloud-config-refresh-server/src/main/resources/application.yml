@@ -1,0 +1,21 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: config-refresh-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/llss6887/springcloud-config
+          search-paths: config-repo
+          username: 168337573@qq.com
+          password: liSHUAI19900826
+          default-label: master
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+management:
+  security:
+    enabled: false
