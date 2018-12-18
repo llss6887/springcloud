@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-consul.iml" filepath="$PROJECT_DIR$/spring-cloud-consul.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-consul-producer/spring-cloud-consul-producer.iml" filepath="$PROJECT_DIR$/spring-cloud-consul-producer/spring-cloud-consul-producer.iml" />
+    </modules>
+  </component>
+</project>
