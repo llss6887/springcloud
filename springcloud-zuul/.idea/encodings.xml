@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloud-zuul-eureka" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloud-zuul-eureka-client" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloud-zuul-eurekaclient" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloud-zuul-fallback" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloud-zuul-filter" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloud-zuul-message-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloud-zuul-simple" charset="UTF-8" />
+  </component>
+</project>

@@ -1,0 +1,7 @@
+server:
+  port: 8080
+zuul:
+  routes:
+    user:
+      path: /demo/**
+      url: http://heimamba.com

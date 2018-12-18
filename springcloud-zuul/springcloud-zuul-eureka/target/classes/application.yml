@@ -1,0 +1,48 @@
+---
+server:
+  port: 9001
+
+eureka:
+  instance:
+    hostname: eureka1
+    non-secure-port: ${server.port}
+  client:
+    service-url:
+      defaultZone: http://eureka2:9002/eureka/,http://eureka3:9003/eureka/
+spring:
+  application:
+      name: springcloud-eureka-server
+  profiles: peer1
+
+---
+server:
+  port: 9002
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka1:9001/eureka/,http://eureka3:9003/eureka/
+  instance:
+    hostname: eureka2
+    non-secure-port: ${server.port}
+spring:
+  application:
+      name: springcloud-eureka-server
+  profiles: peer2
+
+---
+server:
+  port: 9003
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka1:9001/eureka/,http://eureka2:9002/eureka/
+
+  instance:
+    hostname: eureka3
+    non-secure-port: ${server.port}
+spring:
+  application:
+      name: springcloud-eureka-server
+  profiles: peer3

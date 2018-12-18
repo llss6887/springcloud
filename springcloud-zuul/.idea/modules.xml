@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/springcloud-zuul.iml" filepath="$PROJECT_DIR$/springcloud-zuul.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud-zuul-eureka/springcloud-zuul-eureka.iml" filepath="$PROJECT_DIR$/springcloud-zuul-eureka/springcloud-zuul-eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud-zuul-eureka-client/springcloud-zuul-eureka-client.iml" filepath="$PROJECT_DIR$/springcloud-zuul-eureka-client/springcloud-zuul-eureka-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud-zuul-eurekaclient/springcloud-zuul-eurekaclient.iml" filepath="$PROJECT_DIR$/springcloud-zuul-eurekaclient/springcloud-zuul-eurekaclient.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud-zuul-fallback/springcloud-zuul-fallback.iml" filepath="$PROJECT_DIR$/springcloud-zuul-fallback/springcloud-zuul-fallback.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud-zuul-filter/springcloud-zuul-filter.iml" filepath="$PROJECT_DIR$/springcloud-zuul-filter/springcloud-zuul-filter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud-zuul-message-server/springcloud-zuul-message-server.iml" filepath="$PROJECT_DIR$/springcloud-zuul-message-server/springcloud-zuul-message-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud-zuul-simple/springcloud-zuul-simple.iml" filepath="$PROJECT_DIR$/springcloud-zuul-simple/springcloud-zuul-simple.iml" />
+    </modules>
+  </component>
+</project>

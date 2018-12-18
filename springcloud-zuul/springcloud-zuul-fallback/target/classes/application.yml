@@ -1,0 +1,11 @@
+server:
+  port: 8004
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:9001/eureka/,http://localhost:9002/eureka/
+zuul:
+  retryable: true
+ribbon:
+  MaxAutoRetries: 2
+  MaxAutoRetriesNextServer: 0

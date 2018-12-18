@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="springcloud-zuul-eureka" />
+        <module name="springcloud-zuul-eureka-client" />
+        <module name="springcloud-zuul-eurekaclient" />
+        <module name="springcloud-zuul-fallback" />
+        <module name="springcloud-zuul-filter" />
+        <module name="springcloud-zuul-message-server" />
+        <module name="springcloud-zuul-simple" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="springcloud-zuul" target="1.8" />
+      <module name="springcloud-zuul-eureka" target="1.8" />
+      <module name="springcloud-zuul-eureka-client" target="1.8" />
+      <module name="springcloud-zuul-eurekaclient" target="1.8" />
+      <module name="springcloud-zuul-fallback" target="1.8" />
+      <module name="springcloud-zuul-filter" target="1.8" />
+      <module name="springcloud-zuul-message-server" target="1.8" />
+      <module name="springcloud-zuul-simple" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

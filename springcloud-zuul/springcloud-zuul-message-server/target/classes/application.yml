@@ -1,0 +1,23 @@
+server:
+  port: 8001
+spring:
+  profiles:
+    active: message1
+  application:
+    name: message-server
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:9001/eureka/,http://localhost:9002/eureka/,http://localhost:9003/eureka/
+#
+#---
+#server:
+#  port: 8002
+#spring:
+#  profiles:
+#    active: message2
+#eureka:
+#  client:
+#    service-url:
+#      defaultZone: http://localhost:9001/eureka/,http://localhost:9002/eureka/,http://localhost:9003/eureka/
+
